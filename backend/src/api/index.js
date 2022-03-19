@@ -1,9 +1,9 @@
 import { Router } from 'express';
-// import movies from './routes/movies';
+import nyTimes from './routes/nyTimes';
 
 export default () => {
   console.log('loading routes');
   const app = Router();
-  // movies(app);
+  nyTimes(app);
   return app;
 };

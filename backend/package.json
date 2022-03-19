@@ -2,7 +2,8 @@
   "name": "backend",
   "version": "1.0.0",
   "description": "https://softwareontheroad.com/ideal-nodejs-project-structure/?utm_source=reddit&utm_medium=subreddit#folder",
-  "main": "index.js","scripts": {
+  "main": "index.js",
+  "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "DEBUG=cineswipes:* nodemon --exec babel-node index.js"
   },
@@ -17,6 +18,7 @@
   },
   "homepage": "https://github.com/MixedPebble/cineswipes-api#readme",
   "dependencies": {
+    "axios": "^0.26.1",
     "body-parser": "^1.19.0",
     "cors": "^2.8.5",
     "debug": "^4.2.0",
