@@ -33,6 +33,7 @@
     "@babel/core": "^7.12.13",
     "@babel/node": "^7.12.13",
     "@babel/preset-env": "^7.12.13",
+    "babel-plugin-wildcard": "^7.0.0",
     "prettier": "2.2.1"
   }
 }
