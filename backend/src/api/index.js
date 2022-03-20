@@ -1,11 +1,11 @@
 import { Router } from 'express';
-import nyTimes from './routes/nyTimes';
-import newsApi from './routes/newsApi';
+import * as Routes from './routes';
 
 export default () => {
   console.log('loading routes');
   const app = Router();
-  nyTimes(app);
-  newsApi(app);
+
+  Object.keys(Routes).forEach(route => Routes[route](app));
+
   return app;
 };
