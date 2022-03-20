@@ -10,3 +10,12 @@ src
 └───services        # All the business logic is here
 └───subscribers     # Event handlers for async task
 └───types           # Type declaration files (d.ts) for Typescript
+
+
+News API:
+[NYTimes](https://developer.nytimes.com)
+[NewsApi](https://newsapi.org/docs)
+[gNews](https://gnews.io/docs/v4)
+
+References:
+[RapidAPI](https://rapidapi.com/blog/rapidapi-featured-news-apis/)
